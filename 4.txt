@@ -31,9 +31,10 @@
    		print(n, '          ', round(s,5))
         	s = s + (s * uvel / 100)
 
-5. 	n = int(input("Введите N: "))
+5. 	n = int(input('Введите N: '))
+
 	for i in range(n):
-    	print('#', end='')
+   		print('#', end='')
     	for j in range(i):
         	print(' ', end='')
     	print('#')
